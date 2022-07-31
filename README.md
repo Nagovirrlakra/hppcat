@@ -7,6 +7,8 @@ hppcat is file hidener for linux that hide your files on the computer with no on
 Not really hide your files but send it to systemfiles and archiving it. 
 Useful to hide sprivate items that yout want your friends know
 
+Coming soon for windows!
+
 ## usage
 
 to use,follow the steps below
