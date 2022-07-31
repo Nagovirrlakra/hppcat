@@ -1,6 +1,7 @@
 # hppcat
 A file hidener for linux build with python
 
+![Screenshot](hpcat.png)
 What is Hppcat?
 hppcat is file hidener for linux that hide your files on the computer with no one know. 
 Not really hide your files but send it to systemfiles and archiving it. 
