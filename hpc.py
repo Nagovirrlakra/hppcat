@@ -45,16 +45,16 @@ hid = input ("type the file path to hide: ")
 
 print (hid) 
 
-call ("cp {} ~/usr/bin/.mksystem/.sra/.ArChive".format(hid), shell=True)
+call ("cp {} ~/opt/.mksystem/.sra/.ArChive".format(hid), shell=True)
 elif   inp == 'rtn':
     
 blk = input ("type the file name you want to restore: ")
 
 print (blk)
-call ("mv /usr/bin/.mksystem/.sra.ArChive{} /home/\$USERNAME/Documents/restored".format(blk), shell=True)     
+call ("mv /opt/.mksystem/.sra/.ArChive/{} /home/\$USERNAME/Documents/restored".format(blk), shell=True)     
 
 elif inp == 'hflst':
-call ("cd /usr/bin/.mksystem/.sra/.archive && ls")
+call ("cd /opt/.mksystem/.sra/.archive && ls")
 
 elif inp == 'dah':
 sys.Exit(0)
