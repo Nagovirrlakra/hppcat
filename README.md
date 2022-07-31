@@ -10,11 +10,15 @@ Useful to hide sprivate items that yout want your friends know
 ## usage
 
 to use,follow the steps below
+
 $ chmod +x install.sh
+
 then
+
 $ ./install.sh
 
 if install was completed, run the file hpc
+
 $ python hpc.py
 
 ### License
