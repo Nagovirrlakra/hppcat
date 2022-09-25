@@ -21,7 +21,13 @@ $ ./install.sh
 
 if install was completed, run the file hpc
 
-$ python hpc.py
+$ chmod +x hpc.sh
+
+$ ./hpc.sh
+
+Or, do $ chmod +x installtosystem.sh
+
+then, run hpc command on your terminal
 
 ### License
 this program is under GNU GPL license
