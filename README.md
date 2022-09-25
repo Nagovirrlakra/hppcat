@@ -25,7 +25,8 @@ $ chmod +x hpc.sh
 
 $ ./hpc.sh
 
-Or, do $ chmod +x installtosystem.sh
+Or, do 
+$ chmod +x instosys.sh && ./instosys.sh
 
 then, run hpc command on your terminal
 
