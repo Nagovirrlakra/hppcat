@@ -1,5 +1,5 @@
 # hppcat
-A file hidener for linux build with python
+A file hidener for linux build with  powerful Bash Script
 
 ![Screenshot](hpcat.png)
 What is Hppcat?
