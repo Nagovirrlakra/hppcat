@@ -6,14 +6,9 @@ this project is under the GNU GPL license, free to use and modify
 Hppcat: the file hidener that build for linux with python
 ''' 
 
-sa = input ("Enter a Password: ")   
-Passkey = "anuan"
-print (sa)
+call ("sudo su", shell=true)
 
-if 
-
-sa == Passkey: 
-
+while = true:
 
 print (""" 
  _                           _   
