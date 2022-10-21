@@ -19,7 +19,7 @@ echo
  
  read inp
  
- if [ $((inp)) == gmn ]; then
+ if [ $((inp)) == "gmn" ]; then
   echo "Command: 
 gmn: Show this help 
 shi: Hide the file 
@@ -27,7 +27,7 @@ rtn: Restore the file
 hflst: List the hidden files
 dah: Exit"
 
-elif [[ $((inp)) == shi ]]; then
+elif [[ $((inp)) == "shi" ]]; then
 
 echo "type the file path to hide: " 
 
@@ -35,7 +35,7 @@ read hid
 
 mv $hid /opt/.mksystem/.sra/.ArChiVe
 
-elif [[ $((inp)) == rtn ]]; then
+elif [[ $((inp)) == "rtn" ]]; then
 
 echo "type the file name you want to restore: " 
 
@@ -43,7 +43,7 @@ read bc
 
 mv /opt/.mksystem/.sra/.ArChiVe/$bc /home/$USERNAME/Documents
 
-elif [[ $((inp)) == hflst ]]; then
+elif [[ $((inp)) == "hflst" ]]; then
 
 cd /opt/.mksystem/.sra/.ArChiVe
 ls
