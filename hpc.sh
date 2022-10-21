@@ -27,7 +27,7 @@ rtn: Restore the file
 hflst: List the hidden files
 dah: Exit"
 
-elif [[ $((inp)) == "shi" ]]; then
+if [[ $((inp)) == "shi" ]]; then
 
 echo "type the file path to hide: " 
 
@@ -35,7 +35,7 @@ read hid
 
 mv $hid /opt/.mksystem/.sra/.ArChiVe
 
-elif [[ $((inp)) == "rtn" ]]; then
+if [[ $((inp)) == "rtn" ]]; then
 
 echo "type the file name you want to restore: " 
 
@@ -43,12 +43,12 @@ read bc
 
 mv /opt/.mksystem/.sra/.ArChiVe/$bc /home/$USERNAME/Documents
 
-elif [[ $((inp)) == "hflst" ]]; then
+if [[ $((inp)) == "hflst" ]]; then
 
 cd /opt/.mksystem/.sra/.ArChiVe
 ls
 
-elif [] $((dah)) ]]; then
+if [] $((dah)) ]]; then
 exit
 
 fi
